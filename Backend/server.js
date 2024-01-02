@@ -14,7 +14,7 @@ app.get("/error", (req, res) => {
     message: errorObj.message, 
     errors: errorObj.errors,
   });
-});
+});  
 
 app.listen(process.env.PORT, () => {
   console.log(`app is running on ${process.env.PORT}`);
