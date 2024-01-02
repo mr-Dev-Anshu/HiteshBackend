@@ -1,2 +1,3 @@
 /node_modules
-ignoreFile/ignore2
+# .gitignore
+ignoreFile/ignore3
